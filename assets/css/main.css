@@ -1892,21 +1892,35 @@ button,
     .spotlights > section > .content {
       padding: 3em 1.5em 1em 1.5em ; } }
 
+.tech {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center; }
+
+.tech h2 {
+  margin-bottom: 30px; }
+
 .tech-list {
+  columns: 2;
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center; }
+  text-align: left; }
 
 .tech-list-item {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   margin-bottom: 10px;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  padding: 0;
+  min-width: 200px; }
 
-.tech-icon {
+.tech-list-item .tech-icon {
+  width: 2em;
   font-size: 2em;
-  margin-right: 10px; }
+  margin-right: 10px;
+  padding-right: 10px; }
 
 /* Header */
 @-moz-keyframes reveal-header {
